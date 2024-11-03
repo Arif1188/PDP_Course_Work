@@ -48,3 +48,6 @@ numbers = [k for k in range(1, 11)]
 for number in numbers:
     if is_prime(number):
         print(f"{number} is a prime number.")
+
+
+# Thats All from 31st october
