@@ -33,16 +33,18 @@
 #     print(s)
     
 
-def example():
-    for i in range(1,101):
-        yield i
-        
-prime_num = example()
-for num in prime_num:
-    if num <=1:
-        print(f"{num} is not prime")
-    elif num >1 and num <=3:
-        print(f"{num} is prime")
-        for i in range(2,int(num**0.5)+1):
-            if num % i==0:
-                print(num)
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) +1):
+        print(i, 'is i')
+        print(n, 'is n')
+        if n % i == 0:
+            return False
+    return True
+
+# Example usage
+numbers = [k for k in range(1, 11)]
+for number in numbers:
+    if is_prime(number):
+        print(f"{number} is a prime number.")
