@@ -14,4 +14,6 @@ class Point:
 pt = Point(1,4)
 pt = Point(1,4)
 pt = Point(1,4)
+pt = Point(1,4)
 print(Point.asa)
+
