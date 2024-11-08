@@ -13,4 +13,3 @@ class Rectangle:
 rt = Rectangle(20,40)
 print(rt.area())
 
-#Thats all
