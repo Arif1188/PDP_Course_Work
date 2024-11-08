@@ -17,3 +17,5 @@ pt = Point(1,4)
 pt = Point(1,4)
 print(Point.asa)
 
+#About how to use __new__ method
+
