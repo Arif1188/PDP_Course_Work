@@ -21,3 +21,4 @@ ps.name = "John"
 print(ps.name)
 del ps.name
 print(ps.name)
+#----------------------------
